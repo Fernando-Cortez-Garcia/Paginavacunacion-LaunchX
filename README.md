@@ -1,2 +1,2 @@
 # Paginavacunacion-LaunchX
-Esta pagina es una clonada dada por Launc-X y practicar lo aprendido.
+Esta pagina de vacunaccion es esclonada ya que fue como parte de practicar lo aprendido en Launmch-X.
