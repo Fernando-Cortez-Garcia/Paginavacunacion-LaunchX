@@ -1,0 +1,386 @@
+/* variables de colores */
+
+:root {
+    --colorletras: rgb(31, 62, 114);
+    --colornav: #7f8ba0;
+    --colortitulos: #1f3e72;
+    --colorprimario: #fff;
+    --fontstylegruesa: font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-transform: bold;
+}
+
+.btn-hoax {
+    background-color: var(--colorletras);
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    text-decoration: none;
+    margin-left: 2em;
+    position: absolute;
+}
+
+.navbarr {
+    position: sticky;
+}
+
+.itemnav1 {
+    margin-left: 10em;
+}
+
+.itemnav2 {
+    margin-right: 10em;
+}
+
+.banner {
+    height: 725px;
+    flex-wrap: wrap;
+}
+
+.texto {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.texto h1 {
+    color: var(--colortitulos);
+    font-weight: 900;
+}
+
+.texto p {
+    margin-top: 2em;
+    color: var(--colornav);
+    width: 50%;
+    margin: auto;
+    text-align: left;
+}
+
+.texto .btn-banner {
+    margin-top: 3em;
+    color: var(--colortitulos);
+}
+
+.btn-banner a {
+    text-decoration: none;
+    margin-left: 40px;
+    color: var(--colorletras);
+    font-weight: bold;
+}
+
+.btn-banner a i {
+    color: gold;
+}
+
+.barra {
+    width: 50%;
+    height: 90px;
+    border-radius: 20px;
+    position: absolute;
+    margin-top: -6.5em;
+    margin-left: 11em;
+    padding: 10px;
+    background-color: rgba(248, 252, 255, 0.651);
+    display: inline-flex;
+}
+
+.barra .iconos-text {
+    margin-left: 3em;
+}
+
+.iconos-text .iconos-barra {
+    margin-right: 20px;
+    color: #1f3e72;
+}
+
+.iconos-text .iconos-barra span {
+    color: var(--colornav);
+}
+
+.iconos-text span {
+    color: #1f3e72;
+    font-weight: bold;
+}
+
+.iconos-text button {
+    background-color: var(--colorletras);
+    color: white;
+    position: absolute;
+    margin-top: 10px;
+}
+
+
+/* //imagenes de vacunas */
+
+.imgdevacunas {
+    width: 100%;
+    margin-top: -14em;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+}
+
+.imgdevacunas img {
+    width: 200px;
+    margin-top: 2em;
+    height: 100px;
+    object-fit: fill;
+    margin-left: 5em;
+    filter: grayscale(6);
+    image-resolution: var(--colornav);
+}
+
+img {
+    object-fit: fill;
+}
+
+
+/* shoul */
+
+.should {
+    position: absolute;
+    margin-top: 13em;
+    width: 100%;
+    padding: 20px;
+}
+
+.titulo-texto {
+    margin-left: 6em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.should .titulo-texto h4 {
+    color: var(--colortitulos);
+    font-weight: bold
+}
+
+.should .titulo-texto p {
+    color: var(--colornav);
+    margin-top: 2em;
+}
+
+
+/* cards */
+
+.card {
+    margin-top: 2em;
+    flex-wrap: wrap;
+}
+
+.cards .card {
+    margin-left: 3em;
+    height: 350px;
+    background-color: rgba(248, 252, 255, 0.651);
+}
+
+.cards .icono-card {
+    width: 50px;
+    height: 50px;
+    color: var(--colortitulos);
+    background-color: rgb(231, 242, 252);
+    margin-bottom: 2em;
+}
+
+.cards .icono-card i {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.cards .titulo-card h6 {
+    color: var(--colortitulos);
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 1em;
+}
+
+.cards .texto-card {
+    color: var(--colornav);
+}
+
+.preparation {
+    margin-top: 60em;
+    height: 625px;
+    width: 90%;
+    flex-wrap: wrap;
+    position: absolute;
+    float: bottom;
+}
+
+.listado {
+    margin-top: 3em;
+}
+
+.listadoiconos {
+    margin-bottom: 1em;
+    text-align: left;
+    margin-left: 8em;
+}
+
+.listado .listadoiconos .iconos {
+    display: inline-flex;
+}
+
+.listadoiconos .icono {
+    font-size: 20px;
+    color: #005ac4;
+    width: 200px;
+    box-shadow: 2px 2px;
+    background-color: #7f8ba093;
+}
+
+.listadoiconos .titulo {
+    margin-left: 1em;
+    color: var(--colortitulos);
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.listadoiconos .flecha {
+    margin-left: 1em;
+    color: #005ac4;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.listadoiconos .listadotexto {
+    color: var(--colornav);
+    margin-top: 1em;
+    margin-left: 2em;
+}
+
+
+/* emergenci */
+
+.emergenci {
+    margin-top: 115em;
+    display: inline-flex;
+}
+
+.emergenci .texto {
+    width: 50%;
+}
+
+.emergenci img {
+    width: 98%;
+}
+
+.emergenci .cards {
+    width: 100%;
+    margin-left: 1em;
+    display: inline-flex;
+    margin-top: 18em;
+    flex-wrap: wrap;
+    background-color: rgba(238, 235, 235, 0.316);
+}
+
+.emergenci .card {
+    width: 35%;
+    height: 100px;
+    margin-bottom: 1em;
+    color: var(--colortitulos);
+    box-shadow: #7f8ba093 2px 2px;
+}
+
+.cards .card i {
+    font-size: 23px;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 25px;
+    display: inline-flex;
+    border-radius: 20px;
+}
+
+.card .texto {
+    margin-top: 10px;
+    margin-left: 80px;
+    font-size: 15px;
+}
+
+.card .button {
+    margin-left: 55px;
+    margin-top: 5px;
+    background-color: rgba(233, 232, 232, 0.734);
+    color: #005ac4;
+    width: 130px;
+}
+
+.card .button:hover {
+    background-color: var(--colortitulos);
+    color: white;
+}
+
+
+/* FOOTER */
+
+.footer {
+    margin-top: 15em;
+    background-color: rgba(213, 213, 213, 0.734);
+    flex-wrap: wrap;
+}
+
+footer {
+    display: inline-flex;
+}
+
+footer .vaccation {
+    margin-top: 3em;
+    margin-left: 5em;
+}
+
+.vaccation h5 {
+    color: #005ac4;
+    font-weight: bold;
+}
+
+.vaccation p {
+    color: var(--colornav);
+    margin-top: 1em;
+}
+
+.footer .columnasfooter {
+    margin-left: 25em;
+    width: 700px;
+}
+
+.columnasfooter {
+    margin-top: 3em;
+}
+
+.vaccation-derecho h5 {
+    color: #005ac4;
+}
+
+.vaccation-derecho ul {
+    margin-top: 2em;
+    color: var(--colornav);
+    margin-left: -2em;
+}
+
+.vaccation-derecho ul li:hover {
+    cursor: pointer;
+}
+
+.vaccation-derecho ul li {
+    list-style: none;
+}
+
+.letritas {
+    display: inline-flex;
+    color: var(--colornav);
+    margin-top: 3em;
+    margin-bottom: 4em
+}
+
+.letritas .izquierda {
+    margin-left: 4em;
+}
+
+.letritas .derecha {
+    margin-left: 36em;
+}
